@@ -1,0 +1,219 @@
+.App{		
+  	width: 100%;
+	height: auto;
+	background: url(assets/pexels-cottonbro-4009401.jpg) no-repeat;	
+	background-size: 100% 100%;	
+}
+
+.logo:hover{
+	transform: scale(1.2);	
+	transition: all 300ms;
+}
+
+.logo:not(:hover){	
+	transition: all 600ms;
+}
+
+#navBar{
+  width: 100%;
+	height: 137.5px;
+	left: 0px;
+	top: 0px;	
+	background: rgba(0,0,0, .60);	
+  	font-family: 'Oswald', sans-serif;  
+}
+
+#top{
+	display: grid;	
+	grid-template-columns: 50% 50%;	
+}
+
+#logo img{
+	margin-top: 1%;
+	margin-left: 2%;
+	width: 15%;
+	height: auto;
+}
+
+#navBar ul{
+	display: grid;
+	grid-template-columns: 30% 30% 30%;	
+}
+
+#navBar ul{
+	margin: 0 2%;
+	margin-top: 20px;
+	height: 100px;
+	float: right;	
+}
+
+#navBar ul li{
+	margin: 20px;
+	margin-left: 70px;
+	float: right;
+	color: white;
+	height: 60px;
+	width: 160px;
+	line-height: 60px;
+	text-align: center;	
+	list-style: none;
+	font-size: 30px;	
+}
+
+#navBar ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+#navBar ul li:hover{
+	background: #4285F4;
+	cursor: pointer;
+	border-radius: 20px;
+	transition: all 400ms;	
+}
+
+#navBar ul li:not(:hover){
+	border-radius: 0px;
+	transition: all 400ms;	
+}
+
+#navBar ul li:last-child{
+	background: #4285F4;
+}
+
+#navBar ul li:last-child:hover{
+	background: #E50914;
+}
+
+#navBar ul li:last-child:not(:hover){
+	background: #4285F4;
+}
+
+#navBar #linea1{
+	position: absolute;
+	width: 27%;
+	height: 0px;
+	left: 0;
+	top: 8.6em;
+	background: #E50914;
+	border: 3px solid #E50914;
+}
+
+#navBar #linea2{
+	position: absolute;
+	width: 25%;
+	height: 0px;
+	left: 26%;
+	top: 8.6em;
+	background: #4285F4;
+	border: 3px solid #4285F4;
+}
+
+#navBar #linea3{
+	position: absolute;
+	width: 25%;
+	height: 0px;
+	left: 51%;
+	top: 8.6em;
+	background: #1DB954;
+	border: 3px solid #1DB954;
+}
+
+#navBar #linea4{
+	position: absolute;
+	width: 24%;
+	height: 0px;
+	left: 76%;
+	top: 8.6em;
+	background: #F4B400;
+	border: 3px solid #F4B400;
+}
+
+/*footer*/
+
+footer{
+	background-color: #454242;
+    display: grid;
+    grid-template-columns: 28% 32% 20% 20%;
+	height: auto;
+	margin-top: 60px;
+}
+
+footer #logo_footer img{
+	margin-top: 6%;
+	margin-left: 6%;
+	width: 30%;
+	height: auto;
+}
+
+footer #boton_galeriaFotos{
+    height: 100px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 42%;
+    background-color: #E50914;        
+}
+
+footer #boton_galeriaFotos:hover{    
+    width: 42%;
+    height: 102px;
+    transition: 300ms all;
+    background-color:#4285F4;       
+}
+
+footer #boton_galeriaFotos:not(:hover){
+    transition: 300ms all;    
+}
+
+footer #boton_galeriaFotos a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+footer #boton_galeriaFotos a:hover{    
+    color: white;
+}
+
+footer #boton_galeriaVideos{
+    height: 100px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 42%;
+    background-color: #4285F4;        
+}
+
+footer #boton_galeriaVideos:hover{    
+    width: 42%;
+    height: 102px;
+    transition: 300ms all;
+    background-color:#E50914;       
+}
+
+footer #boton_galeriaVideos:not(:hover){
+    transition: 300ms all;    
+}
+
+footer #boton_galeriaVideos a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+footer #boton_galeriaVideos a:hover{    
+    color: white;
+}
+
+footer p{
+	font-family: 'Oswald', 'sans-serif';
+	font-size: 40px;	
+	color: white;
+    text-align: center;
+    margin-top: 25px;
+}

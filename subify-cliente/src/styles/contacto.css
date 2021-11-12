@@ -1,0 +1,132 @@
+.rectangulo-middle-contacto{
+    margin-top: 50px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    height: 400px;
+    font-family: 'Oswald', 'sans-serif';
+}
+
+.nav-item{
+    font-size: 25px;
+    color: white;
+}
+
+#uncontrolled-tab-example-tab-vision{
+    color: #E50914;
+    background-color: #303030;
+    border-bottom: #E50914 3px solid;
+}
+
+#uncontrolled-tab-example-tab-mision{
+    color: #4285F4;
+    background-color: #303030;
+    border-bottom: #4285F4 3px solid;
+}
+
+#uncontrolled-tab-example-tab-redes{
+    color: #1DB954;
+    background-color: #303030;
+    border-bottom: #1DB954 3px solid;
+}
+
+#uncontrolled-tab-example-tab-contactanos{
+    color: #F4B400;
+    background-color: #303030;
+    border-bottom: #F4B400 3px solid;
+}
+
+.tab-redes{
+    width: 100%;    
+}
+
+.redes{    
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    font-size: 100px;
+    margin-top: 110px;
+}
+
+.icono-fb{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #3b5998;    
+}
+
+.icono-fb:hover{
+    color: white;   
+    transform: scale(1.2); 
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.icono-fb:not(:hover){
+    transition: all 600ms;
+}
+
+.icono-tw{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1DA1F2;
+}
+
+.icono-tw:hover{
+    color: white;   
+    transform: scale(1.2); 
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.icono-tw:not(:hover){
+    transition: all 600ms;
+}
+
+.icono-gh{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.icono-gh:hover{
+    color: #E50914;   
+    transform: scale(1.2); 
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.icono-gh:not(:hover){
+    transition: all 600ms;
+}
+
+.icono-ig{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #C13584;
+}
+
+.icono-ig:hover{
+    color: white;   
+    transform: scale(1.2); 
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.icono-ig:not(:hover){
+    transition: all 600ms;
+}
+
+.formulario{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    font-size: 20px;
+}
+
+.label{
+    color: white;
+    font-size: 25px;
+}

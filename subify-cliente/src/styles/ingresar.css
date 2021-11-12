@@ -1,0 +1,72 @@
+#rectangulo_middle_registrar{
+	position: relative;
+	width: 80%;
+	height: 550px;
+	left: 10%;
+	top: 15px;
+	background: #FFFFFF;
+    font-family: 'Oswald', 'sans-serif';
+}
+
+#rectangulo_middle_registrar #gif{
+	width: 100%;
+	height: 100%;
+}
+
+#rectangulo_middle_registrar h1{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
+	font-size: 70px;
+	width: 14.5%;	
+	padding-top: 20px;
+	border-bottom: 10px solid #4285F4;	
+}
+
+#rectangulo_middle_registrar h2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 30px;
+}
+
+#rectangulo_middle_registrar input{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px 10px; 
+	line-height: 8px;
+}
+
+#rectangulo_middle_registrar #boton_ingresar {	
+	margin-top: 50px;
+	width: 17%;
+	height: 70px;
+	line-height: 68px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	background-color: #1DB954;	
+}
+
+#rectangulo_middle_registrar #boton_ingresar:hover {	
+	background-color: #E50914;	
+	border-radius: 25px;
+	transition: all 400ms;
+    cursor: pointer;
+}
+
+#rectangulo_middle_registrar #boton_ingresar:not(:hover) {	
+	background-color: #1DB954;	
+	border-radius: 0px;
+	transition: all 400ms;
+}
+
+#rectangulo_middle_registrar #boton_ingresar a{
+	font-size: 35px;
+	font-weight: bold;	
+	text-decoration: none;
+	color: white;
+}

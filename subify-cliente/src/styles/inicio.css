@@ -1,0 +1,79 @@
+#rectangulo_middle{
+	position: relative;
+	width: 70%;
+	height: 600px;
+	left: 15%;
+	top: 10px;
+	background: rgba(0,0,0, .7);
+	font-family: 'Oswald', 'sans-serif';
+}
+
+#rectangulo_middle #letras_grandes{	
+	font-weight: bold;
+	letter-spacing: 20px;
+	font-size: 150px;	
+	text-align: center;	
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+
+#rectangulo_middle #eslogan{
+	font-size: 80px;
+	text-align: center;
+	color: white;
+	margin-top: 40px;
+}
+
+.s{
+	color: #E50914;
+}
+
+.s:hover{
+	color: #4285F4;
+	transition: all 500ms;
+}
+
+.u{
+	color: #4285F4;
+}
+
+.u:hover{
+	color: #1DB954;
+	transition: all 500ms;
+}
+
+.b{
+	color: #1DB954;
+}
+
+.b:hover{
+	color: #F4B400;
+	transition: all 500ms;
+}
+
+.i{
+	color: #F4B400;
+}
+
+.i:hover{
+	color: #C4C4C4;
+	transition: all 500ms;
+}
+
+.f{
+	color: #C4C4C4;
+}
+
+.f:hover{
+	color: #E50914;
+	transition: all 500ms;
+}
+
+.y{
+	color: #E50914;
+}
+
+.y:hover{
+	color: #4285F4;
+	transition: all 500ms;
+}

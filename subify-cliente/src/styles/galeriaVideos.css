@@ -1,0 +1,27 @@
+.carrusel-item{
+    height: 600px;
+    margin-top: 40px;    
+}
+
+.carrusel-item .video{        
+    margin-left: 14%;
+    width: 70%;
+    height: 80%;
+} 
+
+.carrusel-item h3{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    background: rgba(0,0,0, .65);	
+}
+
+.carrusel-item p{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    background: rgba(0,0,0, .65);	
+}
+

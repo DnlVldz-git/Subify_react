@@ -1,0 +1,25 @@
+.carrusel-item{
+    height: 600px;
+    margin-top: 40px;    
+}
+
+.carrusel img{
+    object-fit: cover;
+    border-radius: 20px;
+} 
+
+.carrusel-item h3{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    background: rgba(0,0,0, .65);	
+}
+
+.carrusel-item p{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    background: rgba(0,0,0, .65);	
+}
