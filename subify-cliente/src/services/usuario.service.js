@@ -26,7 +26,7 @@ class UsuarioService {
     }    
     
     findByUsuario(usuario){
-        return http.get(`/usuarios?usuario=${usuario}`);
+        return http.get(`/ingresar/${usuario}`);
     }    
 }
 

@@ -1,4 +1,4 @@
-const db = require("../models");
+const db = require("../models/");
 const Usuario = db.usuario;
 const Op = db.Sequelize.Op;
 
@@ -10,16 +10,15 @@ exports.create = (req, res) => {
             message: "El contenido no puede ser vacio, nombre=" + req.body.nombre
         });
         return;
-    }
+    };
 
     //crear usuario
     const usuario = {        
         correo: req.body.correo,
         nombre: req.body.nombre,
         usuario: req.body.usuario,
-        contra: req.body.contra,
-        fecha: req.body.fecha        
-    };
+        contra: req.body.contra            
+    };    
 
     //guardar usuario en la bd
     Usuario.create(usuario)
@@ -45,7 +44,7 @@ exports.findAll = (req, res) => {
       .catch(err => {
         res.status(500).send({
           message:
-            err.message || "Ocurrio un error al recuperar todos los usuarios."
+          "ss all" + err.message || "Ocurrio un error al recuperar todos los usuarios."
         });
       });
 };
@@ -122,11 +121,12 @@ exports.deleteAll = (req, res) =>{
 };
 
 exports.findAllUsuarios = (req, res) =>{
-    Usuario.findAll({where: {usuario : req.body.usuario}}).then( data =>{
+    const usu = req.params.usuario;
+    Usuario.findAll({where: {usuario : usu}}).then( data =>{
         res.send(data);
     }).catch(err =>{
         res.status(500).send({
-            message: err.message || "Ocurrio un error al recuperar Usuarios por rol"
+            message: ( "find all" +err.message) || "Ocurrio un error al recuperar Usuarios por rol"
         });
     });
 };

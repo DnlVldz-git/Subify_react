@@ -11,9 +11,6 @@ module.exports = (sequelize, Sequelize) => {
         },
         contra: {
             type: Sequelize.STRING
-        },
-        fecha: {
-            type: Sequelize.DATE
         }
     });
 

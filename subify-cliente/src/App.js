@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, {Component, useState} from "react";
 import { Routes, Route, Link} from 'react-router-dom';
 import './App.css';
 
@@ -14,8 +14,15 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import logo from './assets/logo.png';
 
 function App() {
+  const [active, setActive] = useState(false);
+
+  const toggle = () =>{
+    setActive(!active);
+  }
+
   return (
     <div className="App">
+      
       <div className="contenido" > 
         <div id="navBar">
           <div id="top">
@@ -23,7 +30,7 @@ function App() {
               <a ><Link to={"/"}><img className="logo" src={logo} alt="logo"/></Link></a>
             </div>									
             <ul>												
-              <li><a><Link to={"/registro"}>REGISTRO</Link></a></li>
+              <li><a onClick={toggle}><Link to={"/registro"}>REGISTRO</Link></a></li>
               <li><a ><Link to={"/contacto"}>CONTACTO</Link></a></li>
               <li><a ><Link to={"/ingresar"}>INGRESAR</Link></a></li>
             </ul>																			
@@ -53,7 +60,7 @@ function App() {
         <p> Todos los derechos reservados. Subify 2021</p>
         <button id="boton_galeriaFotos"><a><Link to={"/galeriaFotos"}>GALERÍA FOTOS</Link></a></button>
         <button id="boton_galeriaVideos"><a ><Link to={"/galeriaVideos"}>GALERÍA VIDEOS</Link></a></button>
-		  </footer>
+		  </footer>            
     </div>
   );
 }      

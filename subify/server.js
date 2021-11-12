@@ -8,9 +8,7 @@ var corsOptions = {
     origin: "http://localhost:9595"
 };
 
-
-
-app.use(cors(corsOptions))
+//app.use(cors(corsOptions))
 
 app.use(bodyParser.json());
 
@@ -40,7 +38,7 @@ app.get("/", (req, res) =>{
 });
 
 const db = require("./models");
-db.sequelize.sync({force:true}).then(() => {
+db.sequelize.sync({force:false}).then(() => {
     console.log("Eliminar y sincronizar db");
 });
 

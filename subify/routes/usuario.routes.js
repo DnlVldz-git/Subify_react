@@ -4,13 +4,13 @@ module.exports = app =>{
     var router = require ("express").Router();
 
     //Crear un nuevo usuario
-    router.post("/", usuarios.create);
+    router.post("/registrar", usuarios.create);
 
     //REcuperar todos los Usuarios
     router.get("/", usuarios.findAll);
 
     //Encontrar todos los usuarios con rol
-    router.get("/usuario", usuarios.findAllUsuarios);
+    router.get("/ingresar/:usuario", usuarios.findAllUsuarios);
 
     //Encontrar Usuario por id
     router.get("/:id", usuarios.findOne);
@@ -24,5 +24,5 @@ module.exports = app =>{
     //Eliminar todos los usuarios de la base de datos
     router.delete("/", usuarios.deleteAll);
 
-    app.use('/subify/usuarios', router);
+    app.use('/', router);
 };
