@@ -46,6 +46,12 @@ export default class Ingresar extends Component{
 							mensaje_2: ("Bienvenido " + this.state.usuario_bd[0].nombre)
 						});
 						this.handleModal();				
+					}else{
+						this.setState({
+							mensaje: "Error",
+							mensaje_2: ("Contraseña o usuario incorrecto")
+						});
+						this.handleModal();				
 					}
 				}else{
 					this.setState({					

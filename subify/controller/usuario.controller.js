@@ -14,10 +14,11 @@ exports.create = (req, res) => {
 
     //crear usuario
     const usuario = {        
-        correo: req.body.correo,
-        nombre: req.body.nombre,
+        correo: req.body.email,        
         usuario: req.body.usuario,
-        contra: req.body.contra            
+        contra: req.body.contra,
+        nombre: req.body.nombre,
+        fecha: req.body.fecha
     };    
 
     //guardar usuario en la bd

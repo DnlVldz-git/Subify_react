@@ -10,7 +10,7 @@ class UsuarioService {
     }
 
     create(data){
-        return http.post("/usuarios", data);
+        return http.post("/registrar", data);
     }
 
     update(id, data){

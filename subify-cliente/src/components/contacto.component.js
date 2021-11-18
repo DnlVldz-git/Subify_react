@@ -42,10 +42,12 @@ export default class Contacto extends Component{
                         </div>
                     </Tab>
                     <Tab className="tab" eventKey="vision" title="Visión">
-                        <p>Estas</p>
+                        <h1>Visión</h1>
+                        <p>Nuestra visión es transformar la forma en la que las personas manejan su tiempo</p>
                     </Tab>
                     <Tab className="tab" eventKey="mision" title="Misión">
-                        <p>Estas</p>
+                    <h1>Misión</h1>
+                        <p>Nuestra misión es lograr que los usuarios tengan más tiempo libre para hacer lo que deseen</p>
                     </Tab>
                 </Tabs>
             </div>

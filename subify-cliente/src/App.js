@@ -30,7 +30,7 @@ function App() {
               <a ><Link to={"/"}><img className="logo" src={logo} alt="logo"/></Link></a>
             </div>									
             <ul>												
-              <li><a onClick={toggle}><Link to={"/registro"}>REGISTRO</Link></a></li>
+              <li><a><Link to={"/registro"}>REGISTRO</Link></a></li>
               <li><a ><Link to={"/contacto"}>CONTACTO</Link></a></li>
               <li><a ><Link to={"/ingresar"}>INGRESAR</Link></a></li>
             </ul>																			

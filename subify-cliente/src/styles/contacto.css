@@ -130,3 +130,17 @@
     color: white;
     font-size: 25px;
 }
+
+.tab{
+    text-align: center;
+    color: white;
+}
+
+.tab h1{
+    font-size: 60px;
+    margin-top: 60px;
+}
+
+.tab p{
+    font-size: 40px;
+}

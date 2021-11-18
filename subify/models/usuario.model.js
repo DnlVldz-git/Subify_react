@@ -11,7 +11,11 @@ module.exports = (sequelize, Sequelize) => {
         },
         contra: {
             type: Sequelize.STRING
+        },
+        fecha: {
+            type: Sequelize.STRING
         }
+
     });
 
     return Usuario;
