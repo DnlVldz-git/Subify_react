@@ -48,8 +48,7 @@ function App() {
             <Route path='/ingresar' element={<Ingresar/>} />
             <Route path='/galeriaFotos' element={<GaleriaFotos/>} />
             <Route path='/galeriaVideos' element={<GaleriaVideos/>} />
-            <Route path='/contacto' element={<Contacto/>} />
-            
+            <Route path='/contacto' element={<Contacto/>} />            
           </Routes>      
         </div>  
       </div>

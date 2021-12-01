@@ -144,3 +144,9 @@
 .tab p{
     font-size: 40px;
 }
+
+.div-puntos{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 100px;
+}
