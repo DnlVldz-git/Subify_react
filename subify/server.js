@@ -8,6 +8,7 @@ var corsOptions = {
     origin: "http://localhost:9595"
 };
 
+
 //app.use(cors(corsOptions))
 
 app.use(bodyParser.json());

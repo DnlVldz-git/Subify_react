@@ -111,6 +111,7 @@ export default class Contacto extends Component{
                                 <Button className="boton" variant="primary" type="submit" onClick={this.comprarDiezMil}>
                                         Comprar
                                 </Button>
+                                
                             </div>
                             <div className="puntos">
                                 <p>100000 puntos</p>
